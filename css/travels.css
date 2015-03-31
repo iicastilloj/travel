@@ -1,0 +1,176 @@
+@import url(_fonts.css);
+@import url(sprites.css);
+@import url(flexslider.css);
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Open Sans'; }
+
+header {
+  height: 444px;
+  background: url(../images/header.jpg) no-repeat; }
+  header .col-md-2 {
+    margin-top: 25px; }
+    header .col-md-2 .gosite {
+      width: 140px;
+      height: 38px;
+      line-height: 38px;
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 5px;
+      text-align: center;
+      font-size: 22px;
+      font-weight: 100;
+      color: #048ca9; }
+      header .col-md-2 .gosite a {
+        display: block;
+        text-decoration: none; }
+
+section {
+  height: auto;
+  text-transform: uppercase;
+  color: #11aacb;
+  text-align: center;
+  font-family: 'Open Sans';
+  font-weight: 100; }
+  section p {
+    margin: 0px; }
+    section p.travels-cpvpen {
+      font-size: 25px;
+      margin-top: 30px; }
+    section p.travels-tcv {
+      font-size: 50px;
+      margin-top: -10px; }
+
+.main-content {
+  background: #f1eeee; }
+  .main-content p {
+    color: #898989;
+    margin-top: 28px;
+    text-align: center;
+    font-size: 22px; }
+    .main-content p span.blue {
+      color: #048ca9;
+      font-weight: 100; }
+    .main-content p span.bold {
+      font-weight: 600; }
+    .main-content p span.bluebold {
+      color: #048ca9;
+      font-weight: 600; }
+  .main-content form.travel-form {
+    margin-top: 40px;
+    margin-bottom: 25px;
+    display: inline-block; }
+    .main-content form.travel-form .col-md-12 {
+      margin-bottom: 8px; }
+      .main-content form.travel-form .col-md-12 input[type="text"], .main-content form.travel-form .col-md-12 input[type="email"] {
+        box-shadow: 0px 2px 2px #ccc;
+        border: 1px solid #ccc;
+        height: 28px;
+        padding: 5px; }
+      .main-content form.travel-form .col-md-12 input[type="submit"] {
+        background: #048ca9;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 22px;
+        border: 1px solid #048ca9;
+        border-radius: 5px;
+        box-shadow: 0px 2px 2px #ccc; }
+
+.facilities-content .container {
+  margin-top: 25px;
+  margin-bottom: 25px; }
+  .facilities-content .container p {
+    color: #048ca9;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 25px; }
+  .facilities-content .container .col-md-4 {
+    margin-bottom: 40px; }
+    .facilities-content .container .col-md-4 a {
+      display: block;
+      height: 40px;
+      line-height: 40px;
+      width: auto;
+      text-align: center;
+      background: #ecf1f2;
+      box-shadow: 0px 2px 2px #ccc;
+      font-size: 25px;
+      font-weight: 100;
+      color: #555; }
+      .facilities-content .container .col-md-4 a:hover {
+        background: #daecf0;
+        text-decoration: none; }
+  .facilities-content .container .travel-slider {
+    width: 940px;
+    height: 515px;
+    margin: 0 auto; }
+
+.projectdetails-content {
+  background: #f1eeee; }
+  .projectdetails-content .container p.projectabout {
+    margin-top: 25px;
+    color: #048ca9;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 25px; }
+  .projectdetails-content .container .row .col-md-3 ul {
+    font-size: 18px; }
+    .projectdetails-content .container .row .col-md-3 ul li {
+      list-style: none;
+      text-align: right; }
+      .projectdetails-content .container .row .col-md-3 ul li a {
+        display: block;
+        text-decoration: none;
+        height: auto;
+        line-height: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: #000; }
+        .projectdetails-content .container .row .col-md-3 ul li a:hover {
+          background: #fff;
+          color: #00669c; }
+      .projectdetails-content .container .row .col-md-3 ul li:first-child {
+        background-color: #fff; }
+        .projectdetails-content .container .row .col-md-3 ul li:first-child a {
+          color: #00669c; }
+  .projectdetails-content .container .row .col-md-3 .download-info {
+    background: #09b8de;
+    border-radius: 5px;
+    height: 46px;
+    line-height: 45px;
+    margin-bottom: 15px; }
+    .projectdetails-content .container .row .col-md-3 .download-info a {
+      color: #fff;
+      font-size: 18px;
+      margin-left: 10px;
+      display: block;
+      text-decoration: none; }
+  .projectdetails-content .container .row .col-md-9 p {
+    text-align: justify; }
+    .projectdetails-content .container .row .col-md-9 p span.capital-letter {
+      color: #048ca9;
+      font-size: 25px;
+      display: inline-block;
+      width: 40px;
+      height: 70px;
+      float: left;
+      font-weight: 100;
+      clear: both; }
+
+footer {
+  background: #00669c;
+  height: auto !important;
+  display: block;
+  height: 38px;
+  line-height: 38px; }
+  footer .container .travels-copyright {
+    text-align: center;
+    font-size: 12px; }
+    footer .container .travels-copyright a {
+      color: #fff; }
+
+/*# sourceMappingURL=travels.css.map */

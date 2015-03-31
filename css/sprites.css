@@ -1,0 +1,19 @@
+[class^="icon-"] {
+  background: url("../images/sprite.png");
+  display: inline-block;
+  *display: inline;
+  vertical-align: middle;
+  background-repeat: no-repeat; }
+  [class^="icon-"].icon-logo {
+    background: url("../images/sprite.png") no-repeat -1px -12px;
+    width: 158px;
+    height: 50px; }
+  [class^="icon-"].icon-download {
+    background: url("../images/sprite.png") no-repeat -1px -75px;
+    width: 25px;
+    height: 29px;
+    margin-right: 10px;
+    margin-top: 8px;
+    float: right; }
+
+/*# sourceMappingURL=sprites.css.map */
